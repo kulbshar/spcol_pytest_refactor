@@ -1,0 +1,18 @@
+{
+    "hvtn": {
+        "405": {
+            "parameters": {
+                "enrds": "enr_hvtn_405",
+                "retds": "exp_hvtn_405"
+            }
+        }
+    },
+    "idcrc": {
+        "21_0012": {
+            "parameters": {
+                "enrds": "enr_idcrc_003",
+                "retds": "exp_idrcr_003"
+            }
+        }
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "email_to": "sc.ldosm@scharp.org",
+    "email_from": "sc.ldosm@scharp.org",
+    "sas_program": "create_spcol.sas",
+    "path_code": "/trials/LabDataOps/managed_code/specimen_collection_dataset_creation/",
+    "path_protocol_macros": "/trials/LabDataOps/managed_code/specimen_collection_dataset_creation/macros/",
+    "path_protocol_config": "/trials/LabDataOps/managed_code/specimen_collection_dataset_creation/protocol_specimen_config/",
+    "path_log": "/trials/LabDataOps/common/logs/specimen_collection_dataset_creation/",
+    "path_outdata": "/trials/lab/data/spec/",
+    "path_fmtlib": "/trials/LabDataOps/common/sas_formats/",
+
+    "protocol_configs": {
+        "idcrc": {
+            "21_0012": {
+                "parameters": {
+                    "enrds": "enr_idcrc_003",
+                    "retds": "exp_idrcr_003"
+                }
+            },
+            "21_0004": {
+                "parameters": {
+                    "enrds": "enr_idcrc_002",
+                    "retds": "exp_idrcr_002"
+                }
+            }
+        },
+        "hptn": {
+            "083": {
+                "parameters": {
+                    "enrds": "enr_hptn_083",
+                    "retds": "ret_hptn_083"
+                }
+            },
+            "084": {
+                "parameters": {
+                    "enrds": "enr_hptn_084",
+                    "retds": "ret_hptn_084"
+                }
+            },
+            "083_1": {
+                "parameters": {
+                    "enrds": "enr_hptn_083_1",
+                    "retds": "exp_hptn_083_1"
+                }
+            },
+            "084_1": {
+                "parameters": {
+                    "enrds": "enr_hptn_084_1",
+                    "retds": "exp_hptn_084_1"
+                }
+            },            
+            "091": {
+                "parameters": {
+                    "enrds": "enr_hptn_091",
+                    "retds": "exp_hptn_091"
+                    }
+                },            
+                "094": {
+                    "parameters": {
+                        "enrds": "enr_hptn_094",
+                        "retds": "exp_hptn_094"
+                    }
+            }
+        },
+        "covpn": {
+            "5001": {
+                "parameters": {
+                    "enrds": "enr_covpn_5001",
+                    "retds": "exp_covpn_5001"
+                }
+            },
+            "5002": {
+                "parameters": {
+                    "enrds": "enr_covpn_5002",
+                    "retds": "exp_covpn_5002"
+                }
+            },
+            "3006": {
+                "parameters": {
+                    "enrds": "enr_covpn_3006",
+                    "retds": "exp_covpn_3006",
+                    "export_csv_dataset": "yes"
+                }
+            }
+        },
+        "hvtn": {
+            "115": {
+                "parameters": {
+                    "enrds": "enr_hvtn_115",
+                    "retds": "ret_hvtn_115"
+                }
+            },
+            "117": {
+                "parameters": {
+                    "enrds": "enr_hvtn_117",
+                    "retds": "ret_hvtn_117",
+                    "enr_ret": "/trials/vaccine/p117/s001/qdata"
+                }
+            },
+            "118": {
+                "parameters": {
+                    "enrds": "enr_hvtn_118",
+                    "retds": "ret_hvtn_118",
+                    "enr_ret": "/trials/vaccine/p118/s001/data"
+                }
+            },
+            "123": {
+                "parameters": {
+                    "enrds": "enr_hvtn_123",
+                    "retds": "exp_hvtn_123"
+                }
+            },
+            "127": {
+                "parameters": {
+                    "enrds": "enr_hvtn_127",
+                    "retds": "ret_hvtn_127"
+                }
+            },
+            "128": {
+                "parameters": {
+                    "enrds": "enr_hvtn_128",
+                    "retds": "exp_hvtn_128"
+                }
+            },
+            "130": {
+                "parameters": {
+                    "enrds": "enr_hvtn_130",
+                    "retds": "exp_hvtn_130"
+                }
+            },
+            "133": {
+                "parameters": {
+                    "enrds": "enr_hvtn_133",
+                    "retds": "exp_hvtn_133"
+                }
+            },
+            "135": {
+                "parameters": {
+                    "enrds": "enr_hvtn_135",
+                    "retds": "exp_hvtn_135"
+                }
+            },
+            "136": {
+                "parameters": {
+                    "enrds": "enr_hvtn_136",
+                    "retds": "exp_hvtn_136"
+                }
+            },
+            "137": {
+                "parameters": {
+                    "enrds": "enr_hvtn_137",
+                    "retds": "exp_hvtn_137"
+                }
+            },
+            "139": {
+                "parameters": {
+                    "enrds": "enr_hvtn_139",
+                    "retds": "exp_hvtn_139"
+                }
+            },
+            "140": {
+                "parameters": {
+                    "enrds": "enr_hvtn_140",
+                    "retds": "exp_hvtn_140"
+                }
+            },
+            "405": {
+                "parameters": {
+                    "enrds": "enr_hvtn_405",
+                    "retds": "exp_hvtn_405"
+                }
+            },
+            "702": {
+                "parameters": {
+                    "enrds": "enr_hvtn_702",
+                    "retds": "ret_hvtn_702"
+                }
+            },
+            "705": {
+                "parameters": {
+                    "enrds": "enr_hvtn_705",
+                    "retds": "ret_hvtn_705"
+                }
+            },
+            "706": {
+                "parameters": {
+                    "enrds": "enr_hvtn_706",
+                    "retds": "ret_hvtn_706"
+                }
+            },
+            "805": {
+                "parameters": {
+                    "enrds": "enr_hvtn_805",
+                    "retds": "exp_hvtn_805"
+                }
+            },
+            "300": {
+                "parameters": {
+                    "enrds": "enr_hvtn_300",
+                    "retds": "exp_hvtn_300"
+                }
+            },
+            "302": {
+                "parameters": {
+                    "enrds": "enr_hvtn_302",
+                    "retds": "exp_hvtn_302"
+                }
+            }
+        },
+        "mtn": {
+            "034": {
+                "parameters": {
+                    "enrds": "enr_mtn_034",
+                    "retds": "ret_mtn_034"
+                }
+            },
+            "035": {
+                "parameters": {
+                    "enrds": "enr_mtn_035",
+                    "retds": "ret_mtn_035"
+                }
+            },
+            "039": {
+                "parameters": {
+                    "enrds": "enr_mtn_039",
+                    "retds": "ret_mtn_039"
+                }
+            },
+            "042": {
+                "parameters": {
+                    "enrds": "enr_mtn_042",
+                    "retds": "ret_mtn_042",
+                    "enr_ret": "/trials/mtn/p042/s000/qdata"
+                }
+            },
+            "043": {
+                "parameters": {
+                    "enrds": "enr_mtn_043",
+                    "retds": "exp_mtn_043"
+                }
+            },
+            "044": {
+                "parameters": {
+                    "enrds": "enr_mtn_044",
+                    "retds": "ret_mtn_044"
+                }
+            }
+        }
+    }
+}
